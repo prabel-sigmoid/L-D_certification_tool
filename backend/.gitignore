@@ -1,0 +1,79 @@
+.env
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# SQLite database files
+*.db
+*.sqlite3
+
+# FastAPI specific
+*.pid
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ruff / linting
+.ruff_cache/
+
+# Type checking
+.pyre/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Alembic migrations (optional)
+# Uncomment if you don't want migration files tracked
+# alembic/versions/
+
+# Uploads / generated media
+uploads/
+media/
+
+# Secrets / credentials
+*.pem
+*.key
+secrets.json
+credentials.json
